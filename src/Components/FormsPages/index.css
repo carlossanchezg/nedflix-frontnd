@@ -1,0 +1,23 @@
+.bgsm {
+    background: black;
+}
+
+@media (min-width:540px) {
+    .bgimg {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.637), rgba(0, 0, 0, 0.637)), url('../../assets/nedflixbgimg.jpg');
+        background-size: cover 100%;
+        background-position: left top;
+    }
+}
+
+@media (max-width:540px) {
+    .smsize {
+        margin-bottom: 48px!important;
+    }
+}
+
+@media (min-width:768px) and (max-width:1025px) {
+    .lgsize {
+        margin-bottom: 420px!important;
+    }
+}

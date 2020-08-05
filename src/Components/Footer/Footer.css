@@ -1,0 +1,12 @@
+.footercard {
+    background-color: rgba(0,0,0,.75)!important;
+}
+
+.fonts {
+    font-size: 12px;
+    color: rgb(155, 155, 155);
+}
+
+.fonts:hover {
+    color: rgb(155, 155, 155);
+}
