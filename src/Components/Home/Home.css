@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "HelveticaNeueBold";
+    font-size: normal;
+    src: local("HelveticaNeueBold"), url('../../fonts/HelveticaNeueBold.ttf') ;
+}
+
+.body {
+    background: #111;
+}
+
+.row_covers {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 0px 20px 20px 20px;
+}
+
+
+.row_covers::-webkit-scrollbar {
+    display: none;
+}
+
+.row_large_cover {
+    max-height: 250px;
+    margin-right: 10px;
+    transition: transform 450ms;
+}
+
+.row_large_cover:hover {
+    transform: scale(1.09);
+}
+
+.row_cover {
+    object-fit: contain;
+    max-height: 120px;
+    margin-right: 10px;
+    transition: transform 450ms;
+}
+.row_cover:hover {
+    transform: scale(1.08);
+}

@@ -1,0 +1,190 @@
+@font-face {
+    font-family: "HelveticaNeueBold";
+    font-size: normal;
+    src: local("HelveticaNeueBold"), url('../../fonts/HelveticaNeueBold.ttf') ;
+}
+
+@font-face {
+    font-family: "HelveticaNeueMedium";
+    font-size: normal;
+    src: local("HelveticaNeueMedium"), url('../../fonts/HelveticaNeueMedium.ttf') format('truetype') ;
+}
+
+.row_covers_lists {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 0px 20px 20px 20px;
+}
+
+.row_covers_lists::-webkit-scrollbar {
+    display: none;
+}
+
+.row_cover_lists {
+    object-fit: contain;
+    max-height: 120px;
+    margin-right: 10px;
+    transition: transform 450ms;
+    cursor: pointer;
+}
+/* .row_cover_lists:hover {
+    transform: scale(1.08);
+
+} */
+
+.list_name {
+    font-size: 3vw;
+    font-family: "HelveticaNeueMedium";
+    display: inline;
+}
+
+.my_list  {
+    display: block;
+
+}
+
+.edit_list_icon {
+    color: #E50A13;
+    font-size: 2.5vw;
+    margin: 0px 0px 5px 20px;
+}
+
+.name_button_list_container {
+    display: flex;
+    align-items: center;
+}
+
+.icon_img_container {
+    position: relative;
+}
+
+/* .delete_movie_icon {
+    color: #E50A13;
+    position: static;
+} */
+
+
+.icon_img_container > i {
+    position: absolute;
+    color: #E50A13;
+    left: 0;
+    cursor: alias;
+}
+
+.modal_delete {
+    position: fixed;
+    background-color: rgba(17, 17, 17, 0.795);
+    width: 100%;
+    height: 100%;
+    border: transparent!important;
+    z-index: 1;
+}
+
+@media (max-width: 768px) {
+    .text_modal {
+        display: flex;
+        justify-content: center;
+        font-size: 1.1rem;
+        font-family: "HelveticaNeueBold";
+        color: white;
+        margin-top: 90px;
+    }
+}
+
+@media (min-width: 769px) {
+    .text_modal {
+        display: flex;
+        justify-content: center;
+        font-size: 3rem;
+        font-family: "HelveticaNeueBold";
+        color: white;
+        margin-top: 90px;
+    }
+}
+
+.modal_buttons_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.cancel_button {
+    padding: 9px 30px;
+    border-radius: 35px;
+    margin-right: 25px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-family: "HelveticaNeueBold";
+    letter-spacing: 0.9px;
+}
+
+.delete_button {
+    padding: 9px 45px;
+    border-radius: 55px;
+    border: none;
+    background-color: #E50A13;
+    color: white;
+    font-family: "HelveticaNeueBold";
+    letter-spacing: 0.9px;
+}
+
+/* MODAL 2 DELETE MOVIE */
+.modal_delete_2 {
+    position: fixed;
+    background-color: rgba(17, 17, 17, 0.795);
+    width: 100%;
+    height: 100%;
+    border: transparent!important;
+    z-index: 1;
+}
+
+@media (max-width: 768px) {
+    .text_modal_2 {
+        display: flex;
+        justify-content: center;
+        font-size: 1.1rem;
+        font-family: "HelveticaNeueBold";
+        color: white;
+        margin-top: 90px;
+    }
+}
+
+@media (min-width: 769px) {
+    .text_modal_2 {
+        display: flex;
+        justify-content: center;
+        font-size: 3rem;
+        font-family: "HelveticaNeueBold";
+        color: white;
+        margin-top: 90px;
+    }
+}
+
+.modal_buttons_container_2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.cancel_button_2 {
+    padding: 9px 30px;
+    border-radius: 35px;
+    margin-right: 25px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-family: "HelveticaNeueBold";
+    letter-spacing: 0.9px; 
+}
+
+.delete_button_2 {
+    padding: 9px 45px;
+    border-radius: 55px;
+    border: none;
+    background-color: #E50A13;
+    color: white;
+    font-family: "HelveticaNeueBold";
+    letter-spacing: 0.9px; 
+}

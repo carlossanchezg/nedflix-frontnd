@@ -11,16 +11,16 @@
 }
 
 @media (min-width:540px) {
-    .logincard {
+    .login_card {
         padding: 48px;
     }
 }
 
-.logincard {
+.login_card {
     background-color: rgba(0,0,0,.75)!important;
 }
 
-.logincard-text {
+.logincard_text {
     font-size: 31px;
     font-family: "HelveticaNeueBold";
     letter-spacing: 0.5px;
@@ -56,7 +56,7 @@ input:focus::placeholder {
     color: transparent;
 }
 
-.buttonlogin {
+.button_login {
     width: 98%!important;
     background: #e50914!important;
     font-family: "HelveticaNeueBold";
@@ -64,7 +64,7 @@ input:focus::placeholder {
     padding: 12px!important;
 }
 
-.txtcard {
+.footer_txt_card {
     font-family: "HelveticaNeueMedium";
     font-size: 15px;
     color: rgb(155, 155, 155);
@@ -78,14 +78,14 @@ h5 > a:hover {
     color: white
 }
 
-.generatepassword {
+.generate_password_txt {
     color: #E87C02;
     font-size: 11px;
     font-family: "HelveticaNeueMedium";
     /* visibility: hidden; */
 }
 
-.btngeneratepassword {
+.btn_generate_password {
     background: #E87C02!important;
     font-family: "HelveticaNeueMedium";
     color: black!important;
@@ -93,7 +93,7 @@ h5 > a:hover {
 
 }
 
-.view-password-icon {
+.view_password_icon {
     position: absolute;
     top: 280px;
     right: 90px;
@@ -101,7 +101,7 @@ h5 > a:hover {
 }
 
 @media (min-width:0px) and (max-width:320px) {
-    .view-password-icon {
+    .view_password_icon {
         position: absolute;
         top: 232px;
         right: 48px;
@@ -109,14 +109,14 @@ h5 > a:hover {
 }
 
 @media (min-width:321px) and (max-width:540px) {
-    .view-password-icon {
+    .view_password_icon {
         position: absolute;
         top: 232px;
         right: 48px;
     }
 }
 
-#exampleInputPassword1:valid + .view-password-icon {
+#exampleInputPassword1:valid + .view_password_icon {
     visibility: visible!important;
 } 
 
