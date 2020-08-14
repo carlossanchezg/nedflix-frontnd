@@ -1,0 +1,177 @@
+.body {
+    background: #111;
+}
+
+@media (max-width:540px) {
+    .nedflix_logo_2 {
+        width: 80px;
+    }
+}
+
+@media (min-width:541px) {
+    .nedflix_logo_2 {
+        width: 130px;
+    }
+}
+
+.nedflix_logo_2 {
+    position: fixed;
+    left: 35px;
+    width: 80px;
+    object-fit: contain;
+}
+
+.nedflix_avatar {
+    position: fixed;
+    right: 35px;
+    width: 30px;
+    object-fit: contain;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    height: 60px;
+    z-index: 0.9;
+
+    display: flex;
+    justify-content: space-between;
+
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+
+.nav_black_scroll {
+    background-color: #111;
+}
+
+
+/* .explore-text-icon-nav {
+    position: fixed;
+    color: white;
+    font-size: 0.6rem;
+    left: 120px;
+    top: 26px;
+    cursor: pointer;
+} */
+
+
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    /* padding: 16px; */
+    font-size: 12px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    left: 120px;
+    top: -2px;
+  }
+  
+  .dropdown_content {
+    display: none;
+    position: absolute;
+    background-color: rgba(17, 17, 17, 0.945);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown_content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: white;
+  }
+  
+  .dropdown_content a:hover {background-color: rgb(37, 37, 37);
+    text-decoration: none;
+    color: white;
+}
+  
+  .dropdown:hover .dropdown_content {display: block;}
+  
+
+  .dropdown_2 {
+    position: relative;
+    display: inline-block;
+    right: 125px;
+    object-fit: contain;
+  }
+  .dropdown_content_2 {
+    display: none;
+    position: absolute;
+    background-color: #111;
+    min-width: 110px;
+    top: 30px;
+    color: white;
+    font-size: 12px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  }
+
+
+  .dropdown_2:hover .dropdown_content_2 {
+    display: block;
+    color: white;
+  }
+
+  .dropdown_content_2 a:hover {background-color: rgb(37, 37, 37);
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width:500px) {
+    .search_container {
+        /* border: 1px solid red; */
+        border-bottom: 1px solid white; 
+        position: relative;
+        display: inline-block;
+        right: -30px;
+        object-fit: contain;
+        width: 100px;    
+    }
+    
+    .input_search {
+        width: 100%!important;
+        height: 10%!important;
+        color: white!important;
+        background-color: transparent!important;
+    }
+}
+
+@media (min-width:501px) {
+    .search_container {
+        /* border: 1px solid red; */
+        border-bottom: 1px solid white;
+        position: relative;
+        display: inline-block;
+        right: -30px;
+        object-fit: contain;
+        width: 450px;
+    }
+    
+    .input_search {
+        width: 100%!important;
+        height: 10%!important;
+        color: white!important;
+        background-color: transparent!important;
+    }
+}
+
+.btn_icon_search {
+    display: inline;
+    position: absolute;
+}
+
+.search_icon {
+    color: white;
+    position: absolute;
+    right: 0;
+    bottom: 0.1;
+}

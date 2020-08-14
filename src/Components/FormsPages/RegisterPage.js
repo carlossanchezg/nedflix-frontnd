@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css';
 import RegisterForm from './Forms/RegisterForm';
-import PublicNavbar from './PublicNavbar/PublicNavbar';
+import NavigationBar from '../NavigationBar';
 import Footer from '../Footer/Footer';
 
 const RegisterPage = () => {
@@ -9,7 +9,7 @@ const RegisterPage = () => {
     <div className="bgsm">
       <div className="bgimg">
         <div className="container-fluid mb-md-2">
-          <PublicNavbar />
+          <NavigationBar />
         </div>
         <div className="container-fluid d-flex justify-content-center pr-0 pl-0 smsize lgsize">
           <RegisterForm />
